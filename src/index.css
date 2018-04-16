@@ -1,5 +1,42 @@
-body {
+:root {
+  --white: #fff;
+  --lightblue: #2c7898; 
+  --blue: #2e7c9d;
+  --mediumblue: ##67a5ba;
+  --darkblue: #184a5e;
+  --yellow: #f0be30;
+  --warningred: #b13326;
+  --404teal: #54c0b3;
+  --signinwhite: #f55f2;
+  --lignitemgrey: #edede5;
+
+} 
+
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+/* h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+} */

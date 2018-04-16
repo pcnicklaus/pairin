@@ -1,0 +1,58 @@
+.NotFound {
+    background-color: var(--404teal);
+    height: 100vh;
+    position: relative;
+}
+
+.NotFound__nav {
+    position: absolute;
+    left: 15%;
+    top: 4rem;
+}
+
+.NotFound__nav-logo {
+    fill: var(--white);
+}
+
+.NotFound__nav-pairin, .NotFound__nav-personal {
+    position: absolute;
+    left: 7rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.NotFound__nav-pairin {
+    top: .5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.NotFound__nav-personal {
+    bottom: .5rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.NotFound__content {
+    color: var(--white);
+    font-family: 'Raleway';
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.NotFound__content-icon {
+    height: 20rem;
+    fill: var(--white);
+}
+
+.NotFound__content-404 {
+    font-weight: 700;
+    font-size: 10rem;
+    margin-top: -2rem;
+}
+
+.NotFound__content-body {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
