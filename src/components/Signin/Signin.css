@@ -1,0 +1,59 @@
+.Signin {
+    background-color: var(--signinwhite);
+    height: 100vh;
+    position: relative;
+}
+
+.Signin__nav {
+    position: absolute;
+    left: 15%;
+    top: 4rem;
+}
+
+.st2 {
+    fill: var(--logo_blue)
+}
+.st0, .st1, .st3 {
+    fill: var(--logo_yellow);
+}
+
+.Signin__nav-pairin {
+    position: absolute;
+    left: 7rem;
+    text-transform: uppercase;
+    color: var(--logo_blue);
+    top: .75rem;
+    font-size: 3.25rem;
+    font-weight: 600;
+}
+
+.Signin__body {
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signin__form-label {
+    margin-left: .5rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    color: var(--fmed_grey);
+}
+
+.Signin__form-input {
+    display: block;
+    width: 25rem;
+    margin-top: .5rem;
+    padding: .75rem 1rem;
+    border: 1px solid var(--flite_grey);
+    border-radius: 3px;
+    color: var(--flite_grey);
+}
+.Signin__form-input::placeholder {
+    color: var(--flite_grey);
+}
+.Signin__form-button {
+    margin-top: .5rem;
+}

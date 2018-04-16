@@ -18,7 +18,7 @@
     position: absolute;
     left: 7rem;
     text-transform: uppercase;
-    color: white;
+    color: var(--white);
 }
 
 .NotFound__nav-pairin {
