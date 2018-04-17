@@ -1,12 +1,11 @@
 import {
-    FETCH_PROJECTS
+    FETCH_USERS
    } from '../actions/types';
   
   export default function( state = {}, action) {
-  
     switch (action.type) {
-      case FETCH_PROJECTS:
-        return { ...state }
+      case FETCH_USERS:
+        return { ...state, users: action.payload.data }
     }
   
     return state;

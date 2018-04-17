@@ -1,0 +1,49 @@
+.users {
+    height: 100vh;
+    background-color: var(--signinwhite);
+}
+
+.users__nav {
+    position: relative;
+    /* padding: .5rem 0 .5rem 9.5rem; */
+    background-color: var(--logo_blue);
+    text-transform: uppercase;
+}
+
+.users__nav-logo {
+    margin: .5rem 0 .5rem 9.5rem;
+}
+
+.users__nav-logo::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 1px solid black;
+    top: 0;
+}
+
+.pairin_logo_2 { fill: var(--white); }
+.pairin_logo_0, .pairin_logo_1, .pairin_logo_3 { fill: var(--logo_yellow); }
+
+.users__nav__verbiage {
+    position: absolute;
+    height: 100%;
+    left: 15rem;
+    top: .5rem;
+    padding-top: .5rem;
+    color: var(--white);
+}
+
+.users__nav__verbiage:after {
+    content: '';
+    width: 0;
+    height: 80%;
+    position: absolute;
+    border: .5px solid var(--white);
+    top: 0;
+    left: -1rem;
+}
+
+.users__nav__verbiage-pairin { font-size: .75rem; font-weight: 300 }
+.users__nav__verbiage-personal { font-size: 1.5rem; font-weight: 500; margin-top: -3px }
